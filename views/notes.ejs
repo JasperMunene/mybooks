@@ -1,0 +1,23 @@
+<%- include('partials/header.ejs'); -%>
+
+<div class="container mt-5"  data-bs-theme="dark">
+  <h2>Notes for <%= title %> by <%= author %></h2>
+
+  <% if (locals.notes && locals.notes.length > 0) { %>
+    <% notes.forEach((note) => { %>
+      <div class="card mt-3">
+        <div class="card-body">
+          <h5 class="card-title">Note ID: <%= note.note_id %></h5>
+          <p class="card-text">Note Text: <%= note.note_text %></p>
+          <p class="card-text">Date Created: <%= note.date_created %></p>
+        </div>
+      </div>
+    <% }); %>
+  <% } else { %>
+    <p>No notes found for this book.</p>
+  <% } %>
+
+  <a href="/" class="btn btn-primary mt-3">Back to Books</a>
+</div>
+
+<%- include('partials/footer.ejs'); -%>

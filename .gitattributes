@@ -1,0 +1,9 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Explicitly declare text files you want to be normalized and converted to LF.
+*.js text
+*.jsx text
+*.json text
+*.html text
+*.md text
