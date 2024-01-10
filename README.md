@@ -64,10 +64,3 @@ If you'd like to contribute to this project, please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
-
-- Derek Sivers for inspiration.
-
-```
-
-Replace `<repository-url>` with the actual URL of your Git repository. Customize the sections as needed for your project.
